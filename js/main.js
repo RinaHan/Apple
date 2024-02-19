@@ -17,9 +17,9 @@ basketStarterEl.addEventListener("click", function (event) {
 basketEl.addEventListener("click", function (event) {
   event.stopPropagation();
 });
-// click anywhere in the window
+// When clicking on a window, hide the dropdown
 window.addEventListener("click", function () {
-  showBasket;
+  hideBasket();
 });
 
 function showBasket() {
