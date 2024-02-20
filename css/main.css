@@ -1,3 +1,10 @@
+html {
+  /* custom property prefixed */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-font: #1d1d1d;
+  --color-font-darkgray: #6e6e6e;
+}
 html.fixed {
   position: fixed;
   overflow-y: scroll;
